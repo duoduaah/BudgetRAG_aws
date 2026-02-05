@@ -1,8 +1,10 @@
 
-## Project Overview:  BudgetRAG — Visually Grounded Retrieval-Augmented Generation on AWS
+## BudgetRAG — Visually Grounded Retrieval-Augmented Generation Project on AWS
 
 BudgetRAG is a Retrieval-Augmented Generation (RAG) system designed to answer questions over large, complex documents (e.g. 500+ page government budgets) while providing visual, document-level grounding for each answer.
+
 Instead of returning text-only citations, the system surfaces cropped image references from the original document pages that directly support each response, improving trust, auditability, and interpretability.
+
 ---
 
 
