@@ -1,0 +1,29 @@
+/data
+/notebooks
+.env
+cleanup.sh
+.dockerignore
+README.md
+
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Env vars
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Models / data (adjust as needed)
+data/
+*.pt
+*.pkl

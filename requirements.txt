@@ -1,0 +1,8 @@
+python-dotenv==1.2.1
+pydantic==2.12.5
+boto3==1.42.36
+bedrock-agentcore==1.2.0
+strands-agents==1.23.0
+ipython==8.38.0
+pillow==12.1.0
+# pymupdf installed separately in Dockerfile to use pre-built wheel
