@@ -27,3 +27,7 @@ env/
 data/
 *.pt
 *.pkl
+
+cleanup.sh
+pytest.ini 
+run_test.sh
