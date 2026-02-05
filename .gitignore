@@ -3,7 +3,6 @@
 .env
 cleanup.sh
 .dockerignore
-README.md
 
 
 # Python
@@ -31,3 +30,4 @@ data/
 cleanup.sh
 pytest.ini 
 run_test.sh
+README_2.md

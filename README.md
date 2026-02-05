@@ -1,10 +1,18 @@
 
-**A comprehensive AWS GenAI project** showcasing serverless architecture, Bedrock integration, containerized Lambda deployments, and production-ready ML Ops practices for intelligent document analysis.
+**Project Overview** # BudgetRAG — Visually Grounded Retrieval-Augmented Generation on AWS
+
+BudgetRAG is a Retrieval-Augmented Generation (RAG) system designed to answer questions over large, complex documents (e.g. 500+ page government budgets) while providing visual, document-level grounding for each answer.
+
+Instead of returning text-only citations, the system surfaces cropped image references from the original document pages that directly support each response, improving trust, auditability, and interpretability.
 ---
 
-## Why This Project?
 
-This project demonstrates **AWS cloud engineering skills** specifically for **generative AI applications**:
+## Why visual grounding?
+
+Traditional RAG systems return text snippets or page numbers, which still require manual verification.
+
+This project explores an alternative: grounding answers directly in the source document layout by returning cropped page images alongside extracted text. This allows users to visually verify where an answer comes from, even in long, unstructured PDFs.
+
 
 ### **Primary AWS Skills Demonstrated**
 - ✅ **AWS Bedrock** - LLM orchestration, Knowledge Bases, RAG implementation
